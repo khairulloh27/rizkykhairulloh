@@ -1,0 +1,5 @@
+disp('menghitung combinasi n dari r');
+n=input('masukan nilai n= ');
+r=input('masukan nilai r= ');
+combinasi=factorial(n)/(factorial(r)*factorial(n-r));
+disp('combinasi n dari r'); disp(combinasi)

@@ -1,0 +1,16 @@
+n = input('Nilai n = ');
+r = input('Nilai r = '); 
+k = 1;
+ l =1;
+m =1;
+for i=1:n
+    k=k*i;
+end
+for j=1:r   
+    l=l*j;
+end
+for h=1:n-r   
+    m=m*h;
+end
+kombinasi= k/(l*m);
+    fprintf('Nilai Kombinasi adalah ');disp(kombinasi)
